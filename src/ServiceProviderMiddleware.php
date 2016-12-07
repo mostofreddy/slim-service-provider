@@ -1,5 +1,5 @@
 <?php
-/*
+/**
  * ServiceProviderMiddleware
  *
  * PHP version 7+

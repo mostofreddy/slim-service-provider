@@ -1,7 +1,7 @@
 Slim service provider
 ==============
 
-[![Build Status](https://travis-ci.org/mostofreddy/slim-service-manager.svg?branch=master)](https://travis-ci.org/mostofreddy/slim-service-manager)
+[![Build Status](https://travis-ci.org/mostofreddy/slim-service-provider.svg?branch=master)](https://travis-ci.org/mostofreddy/slim-service-provider)
 
 Service Manager para Slim 3
 

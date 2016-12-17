@@ -56,9 +56,11 @@ class ServiceProviderMiddleware
     {
         $services = $this->container['services'];
 
-        foreach ($services as $service) {
-            $service::register($this->container);
-            $service::boot($this->container);
+        if (is_array($services)) {
+            foreach ($services as $service) {
+                $service::register($this->container);
+                $service::boot($this->container);
+            }
         }
 
         $response = $next($request, $response);

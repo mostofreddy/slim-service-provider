@@ -1,6 +1,10 @@
 Changelog
 =========
 
+__0.2.2__
+
+* Bugfix - Validacion de configuración
+
 __0.2.1__
 
 * Change - Documentacion y composer

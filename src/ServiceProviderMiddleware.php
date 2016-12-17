@@ -54,6 +54,20 @@ class ServiceProviderMiddleware
      */
     public function __invoke(ServerRequestInterface $request, ResponseInterface $response, $next):ResponseInterface
     {
+        $this->setProviders();
+
+        $response = $next($request, $response);
+
+        return $response;
+    }
+
+    /**
+     * Inicializa y registra todos los providers
+     *
+     * @return void
+     */
+    public function setProviders()
+    {
         $services = $this->container['services']??null;
 
         if (is_array($services)) {
@@ -62,9 +76,5 @@ class ServiceProviderMiddleware
                 $service::boot($this->container);
             }
         }
-
-        $response = $next($request, $response);
-
-        return $response;
     }
 }

@@ -1,6 +1,10 @@
 Changelog
 =========
 
+__0.2.4__
+
+* Change - implementacion del middleware
+
 __0.2.3__
 
 * Bugfix - Validacion de configuración

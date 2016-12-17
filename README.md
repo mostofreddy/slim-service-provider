@@ -7,7 +7,7 @@ Permite reutilizar códigos de otras aplicaciones o librerías a travez de una c
 
 # Versión
 
-0.2.3
+0.2.4
 
 # License
 

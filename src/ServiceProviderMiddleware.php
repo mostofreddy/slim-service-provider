@@ -54,7 +54,7 @@ class ServiceProviderMiddleware
      */
     public function __invoke(ServerRequestInterface $request, ResponseInterface $response, $next):ResponseInterface
     {
-        $services = $this->container['services'];
+        $services = $this->container['services']??null;
 
         if (is_array($services)) {
             foreach ($services as $service) {

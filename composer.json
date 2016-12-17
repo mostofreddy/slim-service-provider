@@ -1,11 +1,11 @@
 {
-    "name": "restyphp/slim-service-provider",
+    "name": "restyphp/slim3-service-provider",
     "type": "library",
     "description": "Service Manager para Slim 3",
     "keywords": ["slim", "framework", "microframework", "service", "service provider", "resty", "restyphp"],
     "homepage": "https://github.com/mostofreddy/slim-service-provider",
     "license": "MIT",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "authors": [
         {
             "name": "Federico Lozada Mosto",
@@ -23,8 +23,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Resty\\": "src/",
-            "Resty\\Test\\": "tests/src/"
+            "Resty\\Slim\\": "src/",
+            "Resty\\Slim\\Test\\": "tests/src/"
         }
     }
 }

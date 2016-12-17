@@ -7,7 +7,7 @@ Permite reutilizar códigos de otras aplicaciones o librerías a travez de una c
 
 # Versión
 
-0.2.0
+0.2.1
 
 # License
 
@@ -27,7 +27,7 @@ Agregar en el archivo `composer.json`
 ```
 {
     "require": {
-        "restyphp/slim3-service-provider": "0.2.*"
+        "restyphp/slim-service-provider": "0.2.*"
     }
 }
 ```

@@ -1,6 +1,10 @@
 Changelog
 =========
 
+__0.2.1__
+
+* Change - Documentacion y composer
+
 __0.2.0__
 
 * Change - El namespace cambia de nombre

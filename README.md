@@ -1,3 +1,5 @@
+**Deprecated**
+
 Service Provider para Slim 3
 ======================
 
